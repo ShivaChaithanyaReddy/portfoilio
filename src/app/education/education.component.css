@@ -1,0 +1,53 @@
+
+.resume {
+  padding: 30px 30px 0;
+  margin-bottom: 0px;
+  overflow: hidden;
+  background: #fff;
+}
+
+.resume h4 {
+  color: #2c383c;
+  margin: 0px;
+  font-size: 24px;
+  font-weight: 300;
+  margin-top: 20px;
+}
+
+.resume-info ul {
+  padding: 0px;
+}
+
+.resume-info ul {
+  margin-top: -15px;
+}
+
+.resume-info ul li {
+  border-bottom: 1px solid #ededed;
+  padding: 15px 0 20px;
+  margin: 0px;
+  list-style: none;
+}
+
+.resume-info p {
+  margin: 0px;
+  color: #828282;
+  font-size: 15px;
+  line-height: 24px;
+  margin-top: 5px;
+}
+
+.resume-info h5 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #2c383c;
+}
+
+.year {
+  color: #2c383c;
+}
+
+.year i {
+  color: #aaaaaa;
+  margin-right: 5px;
+}

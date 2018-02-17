@@ -1,0 +1,40 @@
+
+<div class="main-content">
+  <div class="container no-padding">
+    <div class="row">
+      <div class="col-md-3 l-content">
+        <div class="profile-pic">
+          <div class="pic-bg"><img src="../assets/Images/profile-photo.gif" class="img-responsive" alt=""/></div>
+        </div>
+        <nav>
+          <ul class="navigation">
+            <li routerLinkActive = 'flex-active'><a [routerLink]="['/aboutme']">Profile <i class="fa fa-user"></i></a></li>
+            <li routerLinkActive = 'flex-active'><a [routerLink]= "['/experience']">Experience <i class="fa fa-briefcase"></i></a></li>
+            <li routerLinkActive = 'flex-active'><a [routerLink]= "['/education']">Education<i class="fa fa-file-text"></i></a></li>
+            <li routerLinkActive = 'flex-active'><a [routerLink]= "['/projects']">Projects <i class="fa fa-comment"></i></a></li>
+            <li routerLinkActive = 'flex-active'><a [routerLink]= "['/contact']">Contact <i class="fa fa-envelope"></i></a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <!-- SECTION 1 - HOMEPAGE -->
+      <div class="col-md-9 r-content">
+          <router-outlet></router-outlet>
+
+        <footer
+        >
+          <div class="row">
+            <div class="col-md-12">
+              <ul class="social">
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </div>
+</div>

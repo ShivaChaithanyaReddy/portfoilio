@@ -1,0 +1,113 @@
+
+.contact h4 {
+  color: #2c383c;
+  margin: 0px;
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.contact {
+  padding: 30px 30px 0;
+  margin-bottom: 0px;
+  overflow: hidden;
+  background: #fff;
+}
+
+/* 9.2. Contact Info */
+
+.contact-info p {
+  font-size: 15px;
+  line-height: 24px;
+  margin: 12px 0;
+}
+
+.contact-info {
+  padding-bottom: 25px;
+  border-bottom: 1px solid #ededed;
+  margin-bottom: 30px;
+  display: table;
+  width: 100%;
+}
+
+.contact-info ul {
+  padding: 0px;
+}
+
+.contact-info ul li {
+  float: left;
+  font-size: 14px;
+  color: #828282;
+  list-style: none;
+  margin-right: 18px;
+}
+
+.contact-info ul li i {
+  margin-right: 5px;
+  color: #4c4d4f;
+  font-size: 16px;
+}
+
+.contact-form form {
+  margin: 20px 0;
+}
+
+.contact-form input {
+  height: 52px;
+  border-radius: 4px;
+  border: 1px solid #ededed;
+  padding: 0 18px;
+  font-size: 12px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.contact-form textarea {
+  height: 176px;
+  border-radius: 4px;
+  border: 1px solid #ededed;
+  padding: 15px 18px;
+  font-size: 12px;
+  width: 100%;
+  margin-bottom: 18px;
+}
+
+.contact-form button {
+  width: 120px;
+  height: 43px;
+  background: #ffd42d;
+  border-radius: 4px;
+  font-size: 13px;
+  color: #4e503b;
+  border: none;
+  float: right;
+}
+
+.contact-form button:hover {
+  background: #222;
+  color: #ffd42d;
+}
+
+.statusMessage,.successmessage,.errormessage {
+  display: none;
+  margin: auto;
+  width: 100%;
+  height: auto;
+  background: #fff;
+  border: 1px solid #ddd;
+  margin: 0 auto;
+  box-shadow: 0 0 8px #aaa;
+  -moz-box-shadow: 0 0 8px #aaa;
+  -webkit-box-shadow: 0 0 8px #aaa;
+  padding: 20px 20px 0;
+}
+
+.statusMessage p {
+  margin: 0;
+  color: #888;
+}
+
+.successmessage p {
+  margin: 0;
+  color: #888;
+}
+
