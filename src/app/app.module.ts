@@ -12,6 +12,7 @@ import { ExperienceComponent } from './experience/experience.component';
 import { ContactComponent } from './contact/contact.component';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import { ProjectComponent } from './projects/project/project.component';
+import { ResumeComponent } from './resume/resume.component';
 
 
 @NgModule({
@@ -22,7 +23,8 @@ import { ProjectComponent } from './projects/project/project.component';
     EducationComponent,
     ExperienceComponent,
     ContactComponent,
-    ProjectComponent
+    ProjectComponent,
+    ResumeComponent
   ],
   imports: [
     BrowserModule, RouterModule, routing, FormsModule,ReactiveFormsModule
