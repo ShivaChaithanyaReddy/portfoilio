@@ -10,12 +10,15 @@ import {ProjectModel} from '../project.model';
 export class ProjectComponent implements OnInit {
 
   display = 'none';
+  project: ProjectModel;
+
   constructor(private projectService: ProjectsService) { }
 
   ngOnInit() {
     this.projectService.onClickProjectEvent
       .subscribe(
         (project: ProjectModel) => {
+          this.project = project;
           this.display = 'block';
         });
 
