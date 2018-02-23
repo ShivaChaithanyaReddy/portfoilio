@@ -10,16 +10,16 @@
     <div class="portfolio-wrap">
       <div class="row">
         <ul id="filter-list" class="clearfix">
-          <li class="filter" (click)="filter('all')"><i class="fa fa-th"></i> All</li>
-          <li class="filter" (click)="filter('FullStack')">Web Based Applications</li>
-          <li class="filter" (click)="filter('Android')">Android Projects</li>
-          <li class="filter" (click)="filter('Datascience')">DataScience Projects</li>
+          <li class="filter" [ngClass]="{'active':activetab==='all'}" (click)="filter('all')"><i class="fa fa-th"></i> All</li>
+          <li class="filter" [ngClass]="{'active':activetab==='FullStack'}" (click)="filter('FullStack')">Web Based Applications</li>
+          <li class="filter" [ngClass]="{'active':activetab==='Android'}" (click)="filter('Android')">Android Projects</li>
+          <li class="filter" [ngClass]="{'active':activetab==='Datascience'}" (click)="filter('Datascience')">DataScience Projects</li>
         </ul>
         <ul id="portfolio">
-          <li class="item col-md-4 animated flipInX" *ngFor="let project of projects"  >
+          <li class="item col-md-4 animated flipInX setHeight" *ngFor="let project of projects"  >
             <a title="Example 1" (click)="projectOnClick(project)">
               <div class="folio-img">
-                <img src="../../assets/Images/vehicleReports.PNG" alt="" class="img-responsive">
+                <img src="{{project.image}}" alt="" class="img-responsive">
                 <div class="overlay">
                   <div class="overlay-inner">
                     <h4>{{project.name}}</h4>

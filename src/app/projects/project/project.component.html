@@ -39,7 +39,7 @@
           Project Link:
         </div>
         <div class="col-md-9">
-          link goes here
+          <a   *ngIf="project.projectLink" href="{{project.projectLink}}" target="_blank"> {{project?.name}}</a>
         </div>
       </div>
       <div class="row">
@@ -47,7 +47,7 @@
           Github Link:
         </div>
         <div class="col-md-9">
-          Link goes here
+          <a href="{{project?.githubLink}}" target="_blank"> {{project?.name}} gitHub source code</a>
         </div>
       </div>
     </div>

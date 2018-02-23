@@ -11,6 +11,8 @@ import {ProjectsService} from './projects.service';
 export class ProjectsComponent implements OnInit {
 
   projects: ProjectModel[];
+  activetab = 'all';
+
   constructor(private projectService: ProjectsService) { }
 
   ngOnInit() {
@@ -18,6 +20,7 @@ export class ProjectsComponent implements OnInit {
   }
 
   filter(condition: string) {
+    this.activetab = condition;
     this.projects = this.projectService.getProjects(condition);
   }
   projectOnClick(project: ProjectModel) {

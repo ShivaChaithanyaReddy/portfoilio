@@ -7,6 +7,7 @@ export class ProjectModel {
     public languages: string,
     public githubLink: string,
     public projectLink: string,
-    public type :string
+    public type :string,
+    public image: string
   ) {}
 }

@@ -29,7 +29,9 @@
   padding: 20px;
   border: 1px solid #888;
   width: 50%;
+  border-radius: 10px;
 }
+
 .my-modal-header{
   padding-top: 10px;
   font-weight: bold;
